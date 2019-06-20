@@ -54,3 +54,8 @@ Boilerplate django project for AWS Elastic Beanstalk.
 10. Open the instance url in web browser
 
 	`eb open`
+
+
+11. You should see the standard Django2 start project welcome page.
+
+12. Now get the RDS database host endpoint and port from **AWS EB console > Configuration > Database (at the bottom of webpage)**. Copy the endpoint and paste it in the `DATABASES` setting in **starter/settings.py** file.
